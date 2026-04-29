@@ -15,7 +15,7 @@ const About = () => {
           >
             <div className="relative rounded-3xl overflow-hidden aspect-[4/5] shadow-2xl">
               <img 
-                src="/images/surgical.png" 
+                src={`${import.meta.env.BASE_URL}images/surgical.png`} 
                 alt="Modern Surgical Suite" 
                 className="w-full h-full object-cover"
               />

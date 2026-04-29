@@ -49,7 +49,7 @@ const FeaturedProducts = () => {
           >
             <div className="rounded-3xl overflow-hidden shadow-2xl bg-white p-8 border border-slate-200/50">
               <img 
-                src="/images/ultrasound.png" 
+                src={`${import.meta.env.BASE_URL}images/ultrasound.png`} 
                 alt="Ultrasound System" 
                 className="w-full h-auto object-contain"
               />
@@ -70,7 +70,7 @@ const FeaturedProducts = () => {
           >
              <div className="rounded-3xl overflow-hidden shadow-2xl bg-slate-900 p-8 border border-slate-800">
               <img 
-                src="/images/hero.png" 
+                src={`${import.meta.env.BASE_URL}images/hero.png`} 
                 alt="Patient Monitor" 
                 className="w-full h-auto object-contain"
               />

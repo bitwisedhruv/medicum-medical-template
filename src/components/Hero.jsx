@@ -67,7 +67,7 @@ const Hero = () => {
           >
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl shadow-medical-blue-900/10 border-8 border-white">
               <img 
-                src="/images/hero.png" 
+                src={`${import.meta.env.BASE_URL}images/hero.png`} 
                 alt="Medical Equipment" 
                 className="w-full h-auto object-cover"
               />
