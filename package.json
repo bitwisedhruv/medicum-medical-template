@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://bitwisedhruv.github.io/medicum-medical-template",
+  "homepage": ".",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
