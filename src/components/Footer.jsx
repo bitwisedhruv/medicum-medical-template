@@ -8,10 +8,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
           {/* Brand Info */}
           <div className="lg:col-span-1">
-             <div className="flex items-center space-x-2 mb-8">
-              <div className="w-8 h-8 bg-medical-blue-600 rounded-lg flex items-center justify-center shadow-lg shadow-medical-blue-600/20">
-                <span className="text-white font-serif font-bold text-lg">M</span>
-              </div>
+             <div className="flex items-center space-x-3 mb-8 group cursor-pointer">
+              <img 
+                src="/images/logo.png" 
+                alt="Medicum Logo" 
+                className="h-8 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              />
               <span className="text-xl font-serif font-bold tracking-tight text-slate-900">
                 MEDICUM<span className="text-medical-blue-600">.</span>
               </span>

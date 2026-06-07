@@ -31,14 +31,16 @@ const Navbar = () => {
     >
       <div className="container-custom flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-medical-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-medical-blue-600/20">
-            <span className="text-white font-serif font-bold text-xl">M</span>
-          </div>
+        <a href="#" className="flex items-center space-x-3 group">
+          <img 
+            src="/images/logo.png" 
+            alt="Medicum Logo" 
+            className="h-9 md:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+          />
           <span className="text-2xl font-serif font-bold tracking-tight text-slate-900">
             MEDICUM<span className="text-medical-blue-600">.</span>
           </span>
-        </div>
+        </a>
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center space-x-10">
