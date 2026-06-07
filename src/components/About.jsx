@@ -49,7 +49,7 @@ const About = () => {
               A Legacy of <span className="text-medical-blue-600">Clinical Excellence</span> and Engineering Innovation
             </h3>
             <p className="text-lg text-slate-500 mb-8 leading-relaxed font-light">
-              Founded over two decades ago, Medicum has been at the forefront of medical technology evolution. We don't just sell equipment; we partner with hospitals to architect modern clinical environments that prioritize patient outcomes above all.
+              Founded over two decades ago, Majestic Makeovers has been at the forefront of medical technology evolution. We don't just sell equipment; we partner with hospitals to architect modern clinical environments that prioritize patient outcomes above all.
             </p>
             
             <div className="grid grid-cols-2 gap-8 mb-10">

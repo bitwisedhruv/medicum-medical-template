@@ -1,6 +1,6 @@
-# MGX - Medicum Medical Template
+# MGX - Majestic Makeovers
 
-MGX is a modern, responsive medical equipment and services template built with React, Vite, and Tailwind CSS.
+MGX is a modern, responsive website template built with React, Vite, and Tailwind CSS.
 
 ## Quick Start
 

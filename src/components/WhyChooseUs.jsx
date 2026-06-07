@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
 
           <div className="relative z-10">
             <div className="max-w-2xl mb-16">
-              <h2 className="text-xs font-bold uppercase tracking-widest text-medical-blue-400 mb-4 font-sans">The Medicum Advantage</h2>
+              <h2 className="text-xs font-bold uppercase tracking-widest text-medical-blue-400 mb-4 font-sans">The Majestic Makeovers Advantage</h2>
               <h3 className="text-4xl md:text-5xl text-white mb-6 leading-tight">
                 Why Hospitals Trust Us to <br />
                 <span className="text-medical-blue-400">Power Their Clinics</span>

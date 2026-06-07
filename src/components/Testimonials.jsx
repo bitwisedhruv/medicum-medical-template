@@ -5,7 +5,7 @@ import { Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      text: "The integration of Medicum's imaging systems into our cardiology wing has transformed our workflow Efficiency is up by 30%.",
+      text: "The integration of Majestic Makeovers' imaging systems into our cardiology wing has transformed our workflow. Efficiency is up by 30%.",
       author: "Sr. Marcus Thorne",
       role: "Head of Cardiology, St. Jude's",
       initials: "MT"
@@ -17,7 +17,7 @@ const Testimonials = () => {
       initials: "SJ"
     },
     {
-      text: "Reliability is the most important factor for us. Medicum's critical care units have never let us down in five years of operation.",
+      text: "Reliability is the most important factor for us. Majestic Makeovers' critical care units have never let us down in five years of operation.",
       author: "Robert Chen",
       role: "Operations Director, Global Health",
       initials: "RC"

@@ -10,12 +10,12 @@ const Footer = () => {
           <div className="lg:col-span-1">
              <div className="flex items-center space-x-3 mb-8 group cursor-pointer">
               <img 
-                src="/images/logo.png" 
-                alt="Medicum Logo" 
+                src={`${import.meta.env.BASE_URL}images/logo.png`} 
+                alt="Majestic Makeovers Logo" 
                 className="h-8 md:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
               <span className="text-xl font-serif font-bold tracking-tight text-slate-900">
-                MEDICUM<span className="text-medical-blue-600">.</span>
+                MAJESTIC MAKEOVERS<span className="text-medical-blue-600">.</span>
               </span>
             </div>
             <p className="text-sm text-slate-500 leading-relaxed font-light italic mb-8">
@@ -74,7 +74,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-4">
                 <Mail size={20} className="text-medical-blue-600 shrink-0" />
-                <span className="text-sm text-slate-500 font-light leading-relaxed">solutions@medicum-global.com</span>
+                <span className="text-sm text-slate-500 font-light leading-relaxed">solutions@majestic-makeovers.com</span>
               </li>
             </ul>
           </div>
@@ -82,7 +82,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-xs text-slate-400 font-light">
-            © 2024 Medicum Global Systems GmbH. All Rights Reserved.
+            © 2024 Majestic Makeovers. All Rights Reserved.
           </p>
           <div className="flex space-x-8">
             <a href="#" className="text-[10px] font-bold uppercase tracking-widest text-slate-400 hover:text-slate-900 transition-colors">Privacy Policy</a>
